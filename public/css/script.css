@@ -1,0 +1,62 @@
+#script_form {
+    padding: 24px;
+    min-height: 150px;
+
+}
+
+#script_form label {
+    font-family: 'GothamRnd Light';
+    font-size: 14px;
+    color: #9b9b9b;
+    line-height: 20px;
+}
+
+#script_form .form-control {
+    font-family: 'GothamRnd Light';
+    font-weight:bold;
+    font-size: 14px;
+    color: #000000;
+}
+
+#script_top_form {
+    padding-left: 24px;
+    padding-right:24px;
+    padding-top:24px;
+
+}
+
+.input-group-addon {
+    min-width:90px;
+    text-align:left;
+}
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    color:black;
+}

@@ -1,0 +1,83 @@
+#question_title {
+    text-align: center;
+    margin-top:30px;
+    font-family: 'GothamRnd Bold';
+    color:white;
+    font-size:14px;
+}
+
+#vote_question {
+    text-align: center;
+    margin-top:10px;
+    font-size:24px;
+}
+
+#vote_question_editlink {
+    font-family: 'GothamRnd Book';
+}
+
+#duration {
+    text-align: center;
+    margin-top: 20px;
+    font-size:24px;
+}
+
+#duration_editlink {
+    font-family: 'GothamRnd Bold';
+}
+
+#duration_minutes {
+    text-align: center;
+    font-family: 'GothamRnd Bold';
+    color:white;
+    font-size:14px;
+}
+
+#vote_option_1_title {
+    text-align: center;
+    margin-top: 20px;
+    color: #9E9E9E;
+    font-family: 'GothamRnd Bold';
+    font-size:14px;
+}
+
+#vote_option_2_title {
+    text-align: center;
+    margin-top: 20px;
+    color: #9E9E9E;
+    font-family: 'GothamRnd Bold';
+    font-size:14px;
+}
+
+#vote_option_1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+#vote_option_1_editlink {
+    font-family: 'GothamRnd Book';
+}
+
+#vote_option_2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+#vote_option_2_editlink {
+    font-family: 'GothamRnd Book';
+}
+
+div.vote-separator{
+    width: 2px; /* Line width */
+    background-color: lightgrey; /* Line color */
+    height: -moz-calc(100% - 50px);
+    height: -webkit-calc(100% - 50px);
+    height: calc(100% - 50px); /* Override in-line if you want specific height. */
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;/* Causes the line to float to left of content.
+    You can instead use position:absolute or display:inline-block
+    if this fits better with your design */
+}

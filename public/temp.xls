@@ -1,0 +1,506 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Sheet0</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr>
+            <th>
+                <span><i class="wb-icon wb-chevron-up"></i></span>
+                
+                
+            </th>
+            <th>
+
+            </th>
+            <th>
+                <span>
+                    Artist
+                    
+                    
+                </span>
+            </th>
+            <th>
+                <span>
+                    Title
+                    
+                    
+                </span>
+            </th>
+            <th></th>
+            <th class="stat-heading">
+                Love it %
+                
+                
+            </th>
+            <th class="stat-heading">
+                Like it %
+                
+                
+            </th>
+            <th class="stat-heading">
+                Over it %
+                
+                
+            </th>
+            <th class="stat-heading">
+                                                        <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Positive Acceptance. This includes the percentage of raters who Love it and Like it.">Pos Acc
+                                                        </span>
+                
+                
+            </th>
+            <th class="stat-heading">
+                                                        <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Number of listeners who AirShr'd this song during this period.">AirShr'd
+                                                        </span>
+                
+                
+            </th>
+            <th class="stat-heading">
+                                                        <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="The number of listeners who rated this song during this period."># Rated
+                                                        </span>
+                
+                
+            </th>
+            <th class="stat-heading">
+                                                        <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="The number of weeks that this song has been playing.">Total Weeks
+                                                        </span>
+                
+                
+            </th>
+            <th class="stat-heading">
+                                                        <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="The number of times this song has been played during this week.">Weekly Plays
+                                                        </span>
+                
+                
+            </th>
+            <th class="stat-heading">
+                                                        <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Total number of times this song has been played for all time.">Total Plays
+                                                        </span>
+                
+                
+            </th>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">1</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is3.mzstatic.com/image/thumb/Music20/v4/1d/33/a6/1d33a67f-a293-7dc1-746d-2e979dce80dd/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Drake</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">One Dance (feat. WizKid &amp; Kyla)</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                100
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                100
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                22
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                3
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                17
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                458
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">2</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is2.mzstatic.com/image/thumb/Music30/v4/d1/a8/c3/d1a8c31d-7d88-806e-3e8d-9c5869096d45/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Illy</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Papercuts (feat. Vera Blue)</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                71
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                29
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                100
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                15
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                7
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                4
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                90
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">3</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is1.mzstatic.com/image/thumb/Music49/v4/1d/2b/4c/1d2b4c13-9682-8a16-14e1-7925e15e994b/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Galantis</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">No Money</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                50
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                25
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: #fa9898;">
+                25
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                75
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                9
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                4
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                17
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                395
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">4</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is4.mzstatic.com/image/thumb/Music3/v4/e2/c5/cd/e2c5cdf9-c1bf-8eee-0345-e1424cb429ba/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Matt Simons</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Catch &amp; Release (Deepend Remix)</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                50
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                50
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                100
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                5
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                2
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                2
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                63
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">5</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is1.mzstatic.com/image/thumb/Music60/v4/1a/97/01/1a970126-277f-eb85-af0c-fca7056619c7/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">The Naked and Famous</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Higher</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                100
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                100
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                5
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                2
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                1
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                2
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">6</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is1.mzstatic.com/image/thumb/Music18/v4/be/51/fb/be51fbb4-207e-bbbd-7936-0cd6c97395de/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Bastille</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Good Grief</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                100
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                100
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                4
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                1
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                7
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                173
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">7</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is5.mzstatic.com/image/thumb/Music30/v4/18/33/f3/1833f3d8-8278-2ff3-4728-f0689ba339c3/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Calum Scott</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Dancing on My Own</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                100
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                100
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                2
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                1
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                1
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                1
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">8</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is3.mzstatic.com/image/thumb/Music30/v4/2c/cd/70/2ccd7062-8da8-e0fa-823a-0689866cfe8f/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Usher</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Crash</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                50
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: #fa9898;">
+                50
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                50
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                7
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                2
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                7
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                368
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">9</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is2.mzstatic.com/image/thumb/Music2/v4/ab/40/3b/ab403b3b-a690-55eb-a23e-ca17c77e8262/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Mark Broom</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Beat Mix</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                25
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: #fa9898;">
+                75
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: #7dd3ae;">
+                25
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                5
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                4
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                2
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                12
+            </td>
+        </tr><tr>
+            <td style="border:1px solid black;">
+                <span class="black" style="border:1px solid black;">10</span>
+            </td>
+            <td class="song-info" style="border:1px solid black;">
+                <img style="width:50px; float:left;" class="coverart" src="http://is1.mzstatic.com/image/thumb/Music49/v4/f3/23/76/f323762b-d599-03b6-1ec1-38e5e4dddf06/source/600x600bb.jpg">
+            </td>
+            <td style="border:1px solid black;">
+                <span class="song-artist black font-size-16" style="font-weight:bold;">Imany</span>
+            </td>
+            <td style="border:1px solid black;">
+                <div class="black font-size-16">Don't Be So Shy (Filatov &amp; Karas Remix)</div>
+            </td>
+            <td class="song-week-label" style="border:1px solid black;">
+                
+            </td>
+            <td class="song-loves" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-likes" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-overs" style="border:1px solid black; background-color: #fa9898;">
+                100
+            </td>
+            <td class="song-pos-acc" style="border:1px solid black; background-color: ;">
+                0
+            </td>
+            <td class="song-airshrs" style="border:1px solid black;">
+                9
+            </td>
+            <td class="song-rated" style="border:1px solid black;">
+                1
+            </td>
+            <td class="song-weeks" style="border:1px solid black;">
+                3
+            </td>
+            <td class="song-weekly-plays" style="border:1px solid black;">
+                0
+            </td>
+            <td class="song-total-plays" style="border:1px solid black;">
+                157
+            </td>
+        </tr></table></body></html>

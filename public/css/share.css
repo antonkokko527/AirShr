@@ -1,0 +1,652 @@
+@font-face {
+	font-family: 'GothamRnd Book';
+	src: url('../img/../fonts/GothamRnd-Book.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'GothamRnd Medium';
+	src: url('../img/../fonts/GothamRnd-Medium.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'GothamRnd Bold';
+	src: url('../img/../fonts/GothamRnd-Bold.otf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	background-color: #153447;
+	font-family: 'GothamRnd Book';
+	padding-bottom: 64px;
+}
+
+a:focus {
+	outline: none;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+.share ul {
+	height: 40px;
+	list-style: none;
+	margin: 30px auto;
+	padding: 0;
+	width: 176px;
+}
+
+.share ul li {
+	float: left;
+}
+
+.share ul li a {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	height: 40px;
+	margin: 0 2px;
+	width: 40px;
+}
+
+.share ul li a img {
+	height: 40px;
+	width: 40px;
+}
+
+.share ul li a.facebook {
+	background-image: url('../img/iconShareFacebook.png');
+}
+
+.share ul li a.facebook:hover {
+	background-image: url('../img/iconShareFacebookHover.png');
+}
+
+.share ul li a.twitter {
+	background-image: url('../img/iconShareTwitter.png');
+}
+
+.share ul li a.twitter:hover {
+	background-image: url('../img/iconShareTwitterHover.png');
+}
+
+.share ul li a.whatsapp {
+	background-image: url('../img/iconShareWhatsapp.png');
+}
+
+.share ul li a.whatsapp:hover {
+	background-image: url('../img/iconShareWhatsappHover.png');
+}
+
+.share ul li a.email {
+	background-image: url('../img/iconShareEmail.png');
+}
+
+.share ul li a.email:hover {
+	background-image: url('../img/iconShareEmailHover.png');
+}
+
+#debug {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	font-size: 20px;
+	height: 50px;
+	left: 0;
+	line-height: 50px;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+header {
+	font-family: 'GothamRnd Medium';
+	margin: 10px 0;
+	text-align: center;
+}
+
+header p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+
+header .brand {
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	height: 60px;
+	margin: 16px auto 14px;
+	text-align: center;
+	width: 60px;
+}
+
+header .date {
+	color: white;
+	font-family: 'GothamRnd Book';
+	font-size: 12px;
+}
+
+#track-information {
+	color: #fff;
+	margin: 10px 0 10px;
+	text-align: center;
+}
+
+@media screen and (min-height:860px) {
+    #track-information {
+        margin: 10px 0 150px;
+        min-height:720px;
+    }
+}
+
+#track-information .track,
+#track-information .artist {
+	text-align: center;
+}
+
+#track-information .track {
+	font-family: 'GothamRnd Book';
+	font-size: 24px;
+	line-height: 29px;
+	margin: 10px auto;
+    width:300px;
+}
+
+#track-information .artist {
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 auto 10px;
+}
+
+#track-information #cover {
+	margin: 30px auto;
+	max-width: 300px;
+}
+
+#track-information #cover video {
+	height: auto;
+	max-width: 100%;
+}
+
+#player .call-to-action-button {
+	border-radius: 3px;
+	/*color: #fff;*/
+	display: inline-block;
+	font-family: 'GothamRnd Medium';
+	font-size: 14px;
+	height: 60px;
+	line-height: 50px;
+	margin: 10px 0;
+	/*max-width: 300px;*/
+	width: 100%;
+	text-align:right;
+}
+
+.iTunes-button {
+	margin-top:10px;
+	float:right;
+}
+
+.googlePlay-button {
+	margin-top:10px;
+	float:right;
+}
+
+.vert-align {
+	display:flex;
+	align-items: center;
+}
+
+#track-information .lyrics,
+#track-information .more {
+	margin: 0 auto;
+	max-width: 300px;
+	position: relative;
+	width: 100%;
+}
+
+#track-information .lyrics {
+	display: none;
+}
+
+#track-information .lyrics .lyrics-title {
+	font-family: 'GothamRnd Bold';
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#track-information .lyrics .lyrics-button {
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	height: 60px;
+	line-height: 54px;
+	margin: 10px 0;
+	max-width: 300px;
+	width: 100%;
+}
+
+#track-information .lyrics .lyrics-button span {
+	color: #dd218b;
+	font-family: 'GothamRnd Medium';
+}
+
+#track-information .lyrics .lyrics-content,
+#track-information .more .more-content,
+#track-information .more .more-content-more,
+#track-information .more .more-content-full {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+#track-information .more {
+	text-align: left;
+}
+
+#track-information .more .more-title {
+	font-family: 'GothamRnd Bold';
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#track-information .more .more-content-more {
+	color: #fff !important;
+	cursor: pointer;
+	display: block;
+	font-family: 'GothamRnd Bold';
+	text-align: center;
+}
+
+#track-information .lyrics .lyrics-content:after {
+	background: -moz-linear-gradient(top, rgba(21, 52, 71, 0) 0%, rgba(21, 52, 71, 0.75) 100%);
+	background: -webkit-linear-gradient(top, rgba(21, 52, 71, 0) 0%, rgba(21, 52, 71, 0.75) 100%);
+	background: linear-gradient(to bottom, rgba(21, 52, 71, 0) 0%, rgba(21, 52, 71, 0.75) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00153447', endColorstr='#bf153447', GradientType=0);
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+#get-the-app {
+	background-color: #fff;
+	color: #6d6d6d;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+#get-the-app h3 {
+	color: #9b9b9b;
+	font-family: 'GothamRnd Medium';
+	font-size: 24px;
+	margin: 0 auto;
+	max-width: 300px;
+	width: 100%;
+}
+
+#get-the-app p {
+	color: #9b9b9b;
+	font-family: 'GothamRnd Medium';
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 50px auto 0;
+	max-width: 300px;
+	width: 100%;
+}
+
+#get-the-app .brand {
+	display: block;
+	height: 60px;
+	margin: 50px auto 20px;
+	width: 60px;
+}
+
+#get-the-app .get-the-app-button {
+	border: solid 1px #dbdbdb;
+	border-radius: 3px;
+	color: #9b9b9b;
+	display: block;
+	font-size: 14px;
+	height: 40px;
+	line-height: 38px;
+	margin: 60px auto;
+	width: 110px;
+}
+
+#get-the-app .img-frame {
+	margin-bottom: 50px;
+}
+
+#get-the-app .img-frame img {
+	display: inline-block;
+	margin: 0 2%;
+	width: 36%;
+}
+
+#get-the-app .img-frame img:first-child {
+	width: 38%;
+}
+
+#player {
+	background: rgba(10, 25, 35, 0.95);
+	bottom: 0;
+	height: 64px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	width: 100%;
+}
+
+#player * {
+	outline: none;
+}
+
+#player .player-track p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#player .player-track .artist {
+	color: #fff;
+	font-family: 'GothamRnd Medium';
+	font-size: 18px;
+	height: 22px;
+	letter-spacing: -0.4px;
+	margin-top: 13px;
+	margin-bottom: 0;
+}
+
+#player .player-track .track {
+	color: #fff;
+	font-size: 13px;
+	height: 16px;
+	letter-spacing: -0.3px;
+	margin-bottom: 13px;
+}
+
+#player .mejs-container {
+	background: transparent;
+	text-align: right;
+}
+
+#player .mejs-container .mejs-controls {
+	background: transparent;
+	height: 64px;
+}
+
+#player .mejs-container .mejs-controls .mejs-playpause-button, .secondary-playpause {
+	height: 28px;
+	margin: 19px 0 17px;
+	position: absolute;
+	/*right: 0;*/
+	width: 28px;
+}
+
+.secondary-playpause {
+	z-index:9999;
+	left: 40%;
+	top: 30%;
+	height:64px;
+	width:64px;
+
+}
+.secondary-playpause button {
+    text-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color:rgba(0,0,0,0.5);
+}
+
+#player .mejs-container .mejs-controls .mejs-playpause-button button, .secondary-playpause button{
+	/*background-color: transparent;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50%;
+	height: 100%;
+	margin: 0;
+	outline: none;
+	width: 100%;
+}
+
+#player .mejs-container .mejs-controls .mejs-playpause-button button[title="Play"], .secondary-playpause button[title="Play"] {
+	background-image: url('../img/audioControllPlay.png');
+}
+
+#player .mejs-container .mejs-controls .mejs-playpause-button button[title="Play"]:hover, .secondary-playpause button[title="Play"]:hover  {
+	background-image: url('../img/audioControllPlayHover.png');
+}
+
+#player .mejs-container .mejs-controls .mejs-playpause-button button[title="Pause"], .secondary-playpause button[title="Pause"] {
+	background-image: url('../img/audioControllPause.png');
+}
+
+#player .mejs-container .mejs-controls .mejs-playpause-button button[title="Pause"]:hover, .secondary-playpause button[title="Pause"]:hover {
+	background-image: url('../img/audioControllPauseHover.png');
+}
+
+#player .mejs-controls div.mejs-time-rail,
+#player .mejs-controls .mejs-time-rail a,
+#player .mejs-controls .mejs-time-rail span,
+#player .mejs-controls .mejs-time-rail .mejs-time-total {
+	border-radius: 0;
+	height: 2px;
+}
+
+#player .mejs-controls div.mejs-time-rail,
+#player .mejs-controls .mejs-time-rail .mejs-time-total {
+	width: 100% !important;
+}
+
+#player .mejs-controls div.mejs-time-rail {
+	left: 0;
+	padding-top: 0;
+	position: fixed;
+	right: 0;
+}
+
+#player .mejs-controls .mejs-time-rail .mejs-time-total {
+	background: #00505d;
+	margin: 0;
+	outline: none;
+}
+
+#player .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: transparent;
+	margin-top: -15px;
+	padding: 15px 0;
+}
+
+#player .mejs-controls .mejs-time-rail .mejs-time-float {
+	display: none !important;
+}
+
+/* Music Theme */
+.music header .brand {
+	background-image: url('../img/logoAirShrMusic.png');
+}
+
+.music .content-type,
+.music .call-to-action-button,
+.music #player .player-track .artist {
+	color: #dd218b;
+}
+
+.music #player .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #dd218b;
+}
+
+.music #track-information .lyrics {
+	display: block;
+}
+
+.music #track-information .more {
+	display: none;
+}
+
+/* Offer Theme */
+.offer header .brand {
+	background-image: url('../img/logoAirShrOffer.png');
+}
+
+.offer .content-type,
+.offer .call-to-action-button,
+.offer #player .player-track .artist {
+	color: #1bd0a8;
+}
+
+.offer #player .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #1bd0a8;
+}
+
+/* Talk Theme */
+.talk header .brand {
+	background-image: url('../img/logoAirShrTalk.png');
+}
+
+.talk .content-type,
+.talk .call-to-action-button,
+.talk #player .player-track .artist {
+	color: #5bc2ee;
+}
+
+.talk #player .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #5bc2ee;
+}
+
+/* News Theme */
+.news header .brand {
+	background-image: url('../img/logoAirShrNews.png');
+}
+
+.news .content-type,
+.news .call-to-action-button,
+.news #player .player-track .artist {
+	color: #f7a700;
+}
+
+.news #player .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #f7a700;
+}
+
+@media (min-width: 768px) {
+	body {
+		padding-bottom: 128px;
+	}
+
+	#player {
+		height: 128px;
+	}
+
+	#player .player-track .artist {
+		font-size: 28px;
+		height: 34px;
+		letter-spacing: -0.6px;
+		margin-top: 36px;
+		margin-bottom: 0;
+	}
+
+	#player .player-track .track {
+		font-size: 18px;
+		height: 22px;
+		letter-spacing: -0.4px;
+		margin-bottom: 36px;
+	}
+
+	#player .mejs-container .mejs-controls .mejs-playpause-button {
+		height: 56px;
+		margin: 38px 0 34px;
+		width: 56px;
+		left:50%;
+	}
+
+	#player .mejs-controls div.mejs-time-rail,
+	#player .mejs-controls .mejs-time-rail a,
+	#player .mejs-controls .mejs-time-rail span,
+	#player .mejs-controls .mejs-time-rail .mejs-time-total {
+		border-radius: 0;
+		height: 4px;
+	}
+
+	#player .mejs-controls div.mejs-time-rail {
+		bottom: calc(128px - 4px);
+	}
+
+	#player .call-to-action-button {
+		font-size: 24px;
+		height: 60px;
+		line-height: 110px;
+		text-align:center
+	}
+
+	/*.itunes-button {*/
+		/*margin:50px;*/
+	/*}*/
+	.iTunes-button {
+		margin:40px auto;
+		display:block;
+		float:none;
+	}
+
+	.googlePlay-button {
+		margin:40px auto;
+		display:block;
+		float:none;
+	}
+}
+
+@media (min-width: 992px) {
+	#track-information .track {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	#track-information .artist {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	#player .share ul {
+		margin: 46px auto 42px;
+	}
+
+	#get-the-app h3 {
+		font-size: 34px;
+	}
+
+	#get-the-app .brand {
+		margin-bottom: 30px;
+	}
+
+	#get-the-app .get-the-app-button {
+		height: 60px;
+		line-height: 58px;
+		margin: 40px auto 60px;
+		width: 160px;
+	}
+
+	#get-the-app .img-frame {
+		margin-top: 65px;
+		margin-bottom: 65px;
+	}
+}

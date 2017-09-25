@@ -1,0 +1,27 @@
+.mobilepreview_content_container{
+    display:block;
+    overflow:auto;
+    height:100%!important;
+}
+
+.content-client-form
+{
+    padding: 24px;
+    min-height: 150px;
+}
+
+.content-client-form label
+{
+    font-family: 'GothamRnd Light';
+    font-size: 14px;
+    color: #9b9b9b;
+    line-height: 20px;
+}
+
+.content-client-form .form-control
+{
+    font-family: 'GothamRnd Light';
+    font-weight:bold;
+    font-size: 14px;
+    color: #000000;
+}

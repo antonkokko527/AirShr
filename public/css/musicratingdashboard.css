@@ -1,0 +1,453 @@
+.ct-chart-bar .ct-label {
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 1;
+    color: #757575 !important;
+
+    fill: #ffffff !important;
+}
+
+.ct-chart .ct-grid {
+    stroke: rgba(200, 200, 200, .5);
+    stroke-width: 2px;
+}
+
+/*.ct-chart .ct-bar {*/
+    /*stroke-width:65px;*/
+/*}*/
+
+.widget-header {
+    padding: 25px 30px 11px;
+}
+
+.love-it-color {
+    color: #DD218B;
+}
+
+.like-it-color {
+    color: #ea79b9;
+}
+
+.hate-it-color {
+    color: #ffa500;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-bar {
+    stroke: #ffa500;
+}
+.ct-chart .ct-series.ct-series-b .ct-bar {
+    stroke: #ea79b9
+}
+.ct-chart .ct-series.ct-series-c .ct-bar {
+    stroke: #DD218B;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-slice-pie {
+    stroke: #ffa500;
+    fill: #ffa500;
+}
+.ct-chart .ct-series.ct-series-b .ct-slice-pie {
+    stroke: #ea79b9;
+    fill: #ea79b9
+}
+.ct-chart .ct-series.ct-series-c .ct-slice-pie {
+    stroke: #DD218B;
+    fill: #DD218B;
+}
+
+.ct-chart-pie .ct-label {
+    font-size:10px;
+    fill: black;/*#757575;*/
+}
+
+@media screen and (max-width:768px) {
+    #filterWidget {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .vert-align {
+        display:flex;
+        align-items: center;
+    }
+}
+
+#musicRatingsTable {
+    cursor:pointer;
+}
+
+.stat-heading {
+    width:40px;
+    text-align: center;
+}
+
+@media screen and (min-width:1680px) {
+    .stat-heading {
+        width: 70px;
+    }
+}
+
+.music-ratings-table-wrapper {
+    overflow-y: visible;
+}
+
+#musicRatingsTable tbody {
+    background-color: whitesmoke;
+}
+
+#musicRatingsTable th:nth-child(1) {
+    border: none;
+}
+
+#musicRatingsTable td {
+    border-left:1px solid white;
+    color:black;
+    text-align:center;
+}
+
+#musicRatingsTable td:not(.song-info) {
+    vertical-align: middle;
+}
+
+#musicRatingsTable td:nth-child(1) {
+    border: none;
+    background-color: white;
+    font-size:15px;
+}
+
+#musicRatingsTable th {
+    background-color: #fff;
+    border-bottom: 1px solid #DDD;
+    font-size:12px;
+    font-weight:bold;
+    color:black;
+}
+
+#musicRatingsTable td.song-info {
+    text-align:left;
+}
+
+#musicRatingsTable td.song-week-label {
+    border:none;
+    white-space:nowrap;
+    color:black;
+}
+
+/*#musicRatingsTable td.song-weeks {*/
+    /*border-left:none;*/
+/*}*/
+
+#musicRatingsTable td.song-weekly-plays {
+    border-left:none;
+}
+
+#musicRatingsTable td.song-total-plays {
+    border-left:none;
+}
+
+#musicRatingsTable td.song-watch {
+    background-color:white;
+    font-size:15px;
+}
+
+/*
+.song-title {
+    -webkit-transition: margin .2s cubic-bezier(.55,0,.1,1);
+    transition: margin .2s cubic-bezier(.55,0,.1,1);
+    width:300px;
+    display:block;
+    margin-left: 0;
+}
+
+.song-title-expanded {
+    -webkit-transition: margin .2s cubic-bezier(.55,0,.1,1);
+    transition: margin .2s cubic-bezier(.55,0,.1,1);
+    display:block;
+    margin-right:0;
+}*/
+
+/*.coverart {*/
+    /*width:50px;*/
+/*}*/
+
+/*.coverart-expanded {*/
+    /*width:50px;*/
+/*}*/
+
+/*.coverart-expanded {*/
+    /*-webkit-transition: width .2s ease;*/
+    /*transition: width .2s ease;*/
+    /*width:100%;*/
+/*}*/
+
+.songrow-transition {
+    transition: all .5s ease;
+}
+
+.songrow-move {
+    transition: transform .2s ease;
+}
+
+/*.songrow.not-loaded {*/
+    /*background-color:whitesmoke !important;*/
+/*}*/
+
+.songrow-enter {
+    height: 0;
+    opacity: 0;
+}
+
+.songrow-leave{
+    opacity:0;
+}
+
+.watch-icon {
+    display:none;
+}
+
+.song-watch:hover > .watch-icon {
+    color:#D6D9D5;
+    display:inline;
+}
+
+.song-watch.active > .watch-icon {
+    color:grey;
+    display:inline;
+}
+
+/* Bootstrap animation */
+.row div {
+    -webkit-transition: width 0.2s ease, margin 0.2s ease;
+    -moz-transition: width 0.2s ease, margin 0.2s ease;
+    -o-transition: width 0.2s ease, margin 0.2s ease;
+    transition: width 0.2s ease, margin 0.2s ease;
+}
+
+/*.row{*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*[class*="col-"]{*/
+    /*margin-bottom: -99999px;*/
+    /*padding-bottom: 99999px;*/
+/*}*/
+
+.ellipsis i {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.0s;
+}
+
+.ellipsis i+i {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.2s;
+}
+
+.ellipsis i+i+i {
+    opacity: 0;
+    -webkit-animation: dot 1.3s infinite;
+    -webkit-animation-delay: 0.3s;
+}
+
+@-webkit-keyframes dot {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.width-80 {
+    width:80px;
+}
+
+.sort-select {
+    display:none;
+}
+.loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(239,239,239,0.6);
+    z-index: 9999;
+}
+
+.loading-info {
+    position: absolute;
+    text-align:center;
+    top: 300px;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -16px;
+}
+
+.mejs-container {
+    background: transparent !important;
+    text-align: right;
+    width:0 !important;
+    height:0 !important;
+    position:relative;
+}
+
+.mejs-container .mejs-controls {
+    background: transparent !important;
+    height: 64px;
+    width:0;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button {
+    height: 28px;
+    position: absolute;
+    width: 28px;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button button {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    height: 100%;
+    margin: 0;
+    outline: none;
+    width: 100%;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button button:hover {
+    background-color: black;
+}
+
+/* Hover and non hover swapped as it makes more sense when overlayed on the cover art */
+.mejs-container .mejs-controls .mejs-playpause-button button[title="Play"] {
+    background-image: url('../img/audioControllPlayHover.png');
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button button[title="Play"]:hover {
+    background-image: url('../img/audioControllPlay.png');
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button button[title="Pause"] {
+    background-image: url('../img/audioControllPauseHover.png');
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button button[title="Pause"]:hover {
+    background-image: url('../img/audioControllPause.png');
+}
+
+/*Table responsiveness*/
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+
+https://css-tricks.com/responsive-data-tables/
+*/
+
+/*@media*/
+/*only screen and (max-width: 760px),*/
+/*(min-device-width: 0) and (max-device-width: 760px)  {*/
+    /*!* Force table to not be like tables anymore *!*/
+    /*table, thead, tbody, th, td, tr {*/
+        /*display: block;*/
+    /*}*/
+
+    /*!*!* Hide table headers (but not display: none;, for accessibility) *!*!*/
+    /*thead tr {*/
+    /*position: absolute;*/
+    /*top: -9999px;*/
+    /*left: -9999px;*/
+    /*}*/
+
+    /*tr { border: 1px solid #ccc; }*/
+
+    /*td {*/
+    /*!* Behave  like a "row" *!*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #eee;*/
+    /*position: relative;*/
+    /*padding-left: 50%;*/
+    /*}*/
+
+    /*td:before {*/
+    /*!* Now like a table header *!*/
+    /*position: absolute;*/
+    /*!* Top/left values mimic padding *!*/
+    /*top: 6px;*/
+    /*left: 6px;*/
+    /*width: 45%;*/
+    /*padding-right: 10px;*/
+    /*white-space: nowrap;*/
+    /*}*/
+
+    /*td.song-info {*/
+    /*height: 150px;*/
+    /*}*/
+
+    /*!**/
+    /*Label the data*/
+    /**!*/
+    /*td.song-loves:before { content: "Love it %"; }*/
+    /*td.song-likes:before { content: "Like it %	"; }*/
+    /*td.song-overs:before { content: "Over it %"; }*/
+    /*td.song-pos-acc:before { content: "Positive Acceptance"; }*/
+    /*td.song-airshrs:before { content: "AirShr'd #"; }*/
+    /*td.song-rated:before { content: "Rated #"; }*/
+    /*td.song-weeks:before { content: "Total Weeks"; }*/
+    /*td.song-weekly-plays:before { content: "Weekly Plays"; }*/
+    /*td.song-total-plays:before { content: "Total Plays"; }*/
+    /*td.song-watch:before { content: "Watch List"; }*/
+
+    /*.song-watch .watch-icon {*/
+        /*color:#D6D9D5;*/
+        /*display:inline;*/
+    /*}*/
+
+    /*.sort-select {*/
+        /*display:inline;*/
+    /*}*/
+/*}*/
+
+
+
+.song-artist, .song-title {
+    max-width:600px;
+}
+
+@media screen and (max-width: 1680px) and (min-width: 1440px){
+    .song-artist, .song-title {
+        max-width:450px;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1280px){
+    .song-artist, .song-title {
+        max-width:300px;
+    }
+}
+@media screen and (max-width: 1280px) {
+
+    /*table, thead, tbody, th, td, tr {*/
+        /*font-size: 8px !important;*/
+    /*}*/
+    #musicRatingsTable th {
+        font-size: 10px;
+    }
+    .song-info {
+        font-size:10px;
+    }
+
+    .song-artist, .song-title {
+        white-space: normal !important;
+        max-width:200px;
+    }
+
+    .song-watch .watch-icon {
+        color:#D6D9D5;
+        display:inline;
+    }
+
+}

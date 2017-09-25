@@ -1,0 +1,436 @@
+/*.stat-header {*/
+    /*color:#9b9b9b;*/
+    /*font-size:15px;*/
+/*}*/
+
+/*.moments-today {*/
+    /*font-size:25px;*/
+/*}*/
+
+/*.stat-box {*/
+    /*border: solid #9b9b9b 1px;*/
+/*}*/
+
+/*.stat-container {*/
+    /*margin-top:100px;*/
+/*}*/
+
+.page {
+    background: #808080;
+}
+#dashboardHeader h1 {
+    color: #ffffff;
+}
+#dashboardHeader p{
+    color: #f0f0f0;
+ }
+
+.btn-default.active {
+    background-color: rgb(80, 227, 194) !important;
+}
+.btn-primary.enabled {
+    background-color: #000088;
+}
+
+/* Activity and downloads chart */
+
+#activityWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+#activityWidget .counter-number-group span:first-child {
+    font-size: 48px;
+    color: #f96868;
+}
+#activityWidget .counter-number-group span:last-child {
+    margin-left: 30px;
+    font-size: 30px;
+    color: #37474f;
+}
+#activityWidget .list-inline {
+    float: right;
+    margin-top: 46px;
+    margin-bottom: 20px;
+}
+#activityWidget .list-inline li {
+    padding: 0;
+}
+#activityWidget .list-inline li:first-child,
+#activityWidget .list-inline li:last-child {
+    position: relative;
+}
+#activityWidget .list-inline li:first-child::before,
+#activityWidget .list-inline li:last-child::before {
+    position: absolute;
+    bottom: 5px;
+    left: -22px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    content: "";
+}
+#activityWidget .widget-content {
+    min-width: 480px;
+}
+#activityWidget .ct-grids .ct-vertical {
+    stroke-dasharray: 6;
+}
+#activityWidget .ct-grids .ct-horizontal {
+    stroke: none;
+}
+#activityWidget .ct-grids .ct-point-label {
+    stroke: #fff;
+    stroke-width: 60px;
+}
+#activityWidget .ct-labels .ct-horizontal {
+    display: block;
+    padding-top: 10px;
+    margin-left: -28px;
+    font-size: 14px;
+    color: #76838f;
+}
+#activityWidget .ct-labels .ct-vertical {
+    margin-top: 5px;
+}
+#activityWidget .ct-area {
+    fill-opacity: .8;
+}
+#activityWidget .ct-series .ct-point,
+#activityWidget .ct-series .ct-point-content {
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+#activityWidget .ct-series:hover .ct-point,
+#activityWidget .ct-series:hover .ct-point-content {
+    opacity: 1;
+}
+#activityWidget .ct-series.ct-series-a .ct-area {
+    fill: #3583ca;
+}
+#activityWidget .ct-series.ct-series-a .ct-line {
+    stroke: #3583ca;
+    stroke-width: 1px;
+}
+#activityWidget .ct-series.ct-series-a .ct-point {
+    cursor: pointer;
+
+    stroke: #3583ca;
+    stroke-width: 12px;
+}
+#activityWidget .ct-series.ct-series-a .ct-point-content {
+    pointer-events: none;
+
+    stroke: #fff;
+    stroke-width: 6px;
+    stroke-linecap: round;
+}
+
+/* Content types donut */
+
+#contentTypesWidget {
+    height: 100%;
+    margin-bottom: 30px !important;
+}
+#contentTypesWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+#contentTypesWidget .widget-content {
+    padding: 0 15px;
+}
+#contentTypesWidget .widget-content:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.table-analytics > thead > tr > th {
+    padding: 15px 0;
+    color: #37474f;
+    vertical-align: middle;
+}
+.table-analytics > tbody > tr > td {
+    vertical-align: middle;
+}
+#contentTypesWidget tr:nth-of-type(even) {
+    background-color: #fafafa;
+}
+#contentTypesWidget td {
+    padding: 20px 0;
+}
+#contentTypesDonut {
+    position: relative;
+    height: 350px;
+    margin: 0 auto;
+}
+#contentTypesDonut svg path[fill="none"] {
+    opacity: 0 !important;
+}
+/* Time of day chart */
+
+#timeOfDayWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+#timeOfDayWidget .widget-content {
+    min-width: 480px;
+}
+/*#timeOfDayWidget .ct-grids .ct-vertical {*/
+    /*stroke-dasharray: 6;*/
+/*}*/
+/*#timeOfDayWidget .ct-grids .ct-horizontal {*/
+    /*stroke: none;*/
+/*}*/
+/*#timeOfDayWidget .ct-grids .ct-point-label {*/
+    /*stroke: #fff;*/
+    /*stroke-width: 60px;*/
+/*}*/
+/*#timeOfDayWidget .ct-labels .ct-horizontal {*/
+    /*display: block;*/
+    /*padding-top: 10px;*/
+    /*margin-left: -28px;*/
+    /*font-size: 14px;*/
+    /*color: #76838f;*/
+/*}*/
+/*#timeOfDayWidget .ct-labels .ct-vertical {*/
+    /*margin-top: 5px;*/
+/*}*/
+/*#timeOfDayWidget .ct-area {*/
+    /*fill-opacity: .8;*/
+/*}*/
+/*#timeOfDayWidget .ct-series .ct-point,*/
+/*#timeOfDayWidget .ct-series .ct-point-content {*/
+    /*opacity: 0;*/
+    /*-webkit-transition: all .3s;*/
+    /*-o-transition: all .3s;*/
+    /*transition: all .3s;*/
+/*}*/
+/*#timeOfDayWidget .ct-series:hover .ct-point,*/
+/*#timeOfDayWidget .ct-series:hover .ct-point-content {*/
+    /*opacity: 1;*/
+/*}*/
+/*#timeOfDayWidget .ct-series.ct-series-a .ct-area {*/
+    /*fill: #3583ca;*/
+/*}*/
+/*#timeOfDayWidget .ct-series.ct-series-a .ct-line {*/
+    /*stroke: #3583ca;*/
+    /*stroke-width: 1px;*/
+/*}*/
+/*#timeOfDayWidget .ct-series.ct-series-a .ct-point {*/
+    /*cursor: pointer;*/
+
+    /*stroke: #3583ca;*/
+    /*stroke-width: 12px;*/
+/*}*/
+/*#timeOfDayWidget .ct-series.ct-series-a .ct-point-content {*/
+    /*pointer-events: none;*/
+
+    /*stroke: #fff;*/
+    /*stroke-width: 6px;*/
+    /*stroke-linecap: round;*/
+/*}*/
+
+#timeOfDayWidget{
+    overflow-y: auto;
+}
+
+#timeOfDayWidget .ct-chart .ct-bar {
+    stroke-width: 4%;
+}
+#timeOfDayWidget .ct-chart .ct-series.ct-series-a .ct-bar {
+    stroke: #DD218B;
+}
+#timeOfDayWidget .ct-chart .ct-series.ct-series-b .ct-bar {
+    stroke: #60C3EC;
+}
+#timeOfDayWidget .ct-chart .ct-series.ct-series-c .ct-bar {
+    stroke: #50E3C2;
+}
+#timeOfDayWidget .ct-chart .ct-series.ct-series-d .ct-bar {
+    stroke: #F5A623;
+}
+#timeOfDayWidget .ct-chart .ct-series.ct-series-e .ct-bar {
+    stroke: #3583ca;
+}
+#timeOfDayWidget .ct-chart .ct-series.ct-series-f .ct-bar {
+    stroke: #000000;
+}
+
+#timeOfDayWidget{
+    margin-bottom:0;
+    border-radius:0;
+}
+
+
+/* Competition and vote widget */
+#competition_and_vote_table {
+    padding:50px;
+}
+
+#competition_and_vote_table td {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 5%;
+}
+
+#competition_and_vote_table th {
+    font-size:12px;
+    text-align: center;
+}
+
+#competitionAndVoteWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+#competitionAndVoteWidget .widget-content {
+    min-width: 280px;
+}
+#competitionAndVoteWidget{
+    border-radius:0;
+}
+
+/* Clicks per user chart */
+
+#clicksPerUserWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+#clicksPerUserWidget{
+    overflow-y: auto;
+}
+
+#clicksPerUserWidget .ct-chart .ct-bar {
+    stroke-width: 4%;
+}
+#clicksPerUserWidget .ct-chart .ct-series.ct-series-a .ct-bar {
+    stroke: #62a8ea;
+}
+#clicksPerUserWidget .ct-chart .ct-series.ct-series-b .ct-bar {
+    stroke: #926dde;
+}
+#clicksPerUserWidget .ct-chart .ct-series.ct-series-c .ct-bar {
+    stroke: #ccd5db;
+}
+
+/* AirShr source donut widget */
+#sourceDonutWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+#sourceDonut {
+    position: relative;
+    height: 150px;
+    margin: 0 auto;
+}
+
+/* Time Listeners Stream */
+#timeStreamWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+#timeStreamWidget .ct-grids .ct-vertical {
+    stroke-dasharray: 6;
+}
+#timeStreamWidget .ct-grids .ct-horizontal {
+    stroke: none;
+}
+#timeStreamWidget .ct-grids .ct-point-label {
+    stroke: #fff;
+    stroke-width: 60px;
+}
+#timeStreamWidget .ct-labels .ct-horizontal {
+    display: block;
+    padding-top: 10px;
+    margin-left: -28px;
+    font-size: 14px;
+    color: #76838f;
+}
+#timeStreamWidget .ct-labels .ct-vertical {
+    margin-top: 5px;
+}
+#timeStreamWidget .ct-area {
+    fill-opacity: .8;
+}
+#timeStreamWidget .ct-series .ct-point,
+#timeStreamWidget .ct-series .ct-point-content {
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+#timeStreamWidget .ct-series:hover .ct-point,
+#timeStreamWidget .ct-series:hover .ct-point-content {
+    opacity: 1;
+}
+#timeStreamWidget .ct-series.ct-series-a .ct-area {
+    fill: #3583ca;
+}
+#timeStreamWidget .ct-series.ct-series-a .ct-line {
+    stroke: #3583ca;
+    stroke-width: 1px;
+}
+#timeStreamWidget .ct-series.ct-series-a .ct-point {
+    cursor: pointer;
+
+    stroke: #3583ca;
+    stroke-width: 12px;
+}
+#timeStreamWidget .ct-series.ct-series-a .ct-point-content {
+    pointer-events: none;
+
+    stroke: #fff;
+    stroke-width: 6px;
+    stroke-linecap: round;
+}
+
+
+/* Map */
+#mapWidget {
+    height: 800px;
+}
+@media screen and (max-width:768px) {
+    #mapWidget {
+        height: 1000px;
+    }
+}
+#mapWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+#mapWidget .widget-content {
+    min-width: 280px;
+}
+
+/* Health widgets */
+#adsDailyLogWidget .widget-header {
+    padding: 25px 30px 11px;
+}
+
+/* Misc */
+
+.counter-label {
+    color: #000000;
+}
+
+.widget-header {
+    color: #000000;
+}
+
+.widget-header {
+    font-weight:400;
+}
+
+.counter-label {
+    font-weight:400;
+}
+
+ /* Tooltip */
+.help-tooltip + .tooltip > .tooltip-inner {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.help-tooltip {
+    margin-left: 15px;
+}

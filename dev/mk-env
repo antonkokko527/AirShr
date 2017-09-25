@@ -1,0 +1,8 @@
+
+echo // .env > .env
+echo DB_HOST=$AIRSHR_MYSQL_PORT_3306_TCP_ADDR >> .env
+echo DB_DATABASE=forge >> .env
+echo DB_USERNAME=$AIRSHR_MYSQL_ENV_MYSQL_USER >> .env
+echo DB_PASSWORD=$AIRSHR_MYSQL_ENV_MYSQL_PASS >> .env
+echo APP_DEBUG=1 >> .env
+

@@ -1,0 +1,63 @@
+.music-search-form
+{
+    padding: 24px;
+    min-height: 150px;
+}
+
+.date-form
+{
+    padding: 24px;
+    min-height: 150px;
+}
+
+.music-ratings-table
+{
+    margin-top:24px;
+}
+
+/*http://stackoverflow.com/a/23518856/2280866*/
+
+.music-ratings-table tr {
+    width: 100%;
+    display: inline-table;
+    height:60px;
+    table-layout: fixed;
+    cursor: pointer;
+
+}
+.music-ratings-table tr.selected {
+    background-color: #abb9d3 !important;
+}
+
+.music-ratings-table table{
+    height:500px;
+    display: -moz-groupbox;
+}
+.music-ratings-table tbody{
+    overflow-y: scroll;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+
+
+.btn-action
+{
+    color: #9b9b9b;
+    font-size: 26px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.btn-action:hover {
+    color: #4A4A4A;
+}
+
+.ended {
+    color: orange;
+}

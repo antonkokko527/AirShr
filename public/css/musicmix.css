@@ -1,0 +1,71 @@
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+}
+#calendar .fc-button {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0 #ddd;
+    text-transform: uppercase;
+    /*background: 0 0;*/
+    color: #000000;
+}
+a.link-editable {
+    border-bottom: none;
+}
+
+.editable-empty {
+    color:red !important;
+}
+
+a.edit-image-button:hover {
+    color:blue !important;
+}
+.not-ready {
+    background-color:red;
+}
+
+.fc-state-highlight {
+    border : 2px solid blue;
+}
+
+.fc-view-container {
+    background-color: white;
+}
+
+
+.mobilepreview_content_container .text-content {
+    padding-bottom:80px !important;
+}
+
+/*#goto_date {*/
+    /*visibility:hidden;*/
+    /*position:relative;*/
+    /*float:left;*/
+    /*top:10px;*/
+    /*right:70px;*/
+/*}*/
+.mobilepreview_container {
+    margin: 0 auto;
+    width: 348px;
+}
+
+.mobilepreview_content_container {
+    background-color: white;
+}
+
+.mobilepreview_slider_container {
+    background-color: white;
+}
+
+
+.fc-event {
+    background-color: #DD218B;
+}
+
+
+.fc-content .fc-time {
+    background-color: #D8007A;
+}

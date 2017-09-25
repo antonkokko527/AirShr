@@ -1,0 +1,58 @@
+.brief-form-left
+{
+    padding: 24px;
+    min-height: 150px;
+}
+
+.brief-form-left label
+{
+    font-family: 'GothamRnd Light';
+    font-size: 14px;
+    color: #9b9b9b;
+    line-height: 20px;
+}
+
+.brief-form-left .form-control
+{
+    font-family: 'GothamRnd Light';
+    font-weight:bold;
+    font-size: 14px;
+    color: #000000;
+}
+
+.brief-form-main input {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    line-height: 1 !important;
+}
+.brief-form-main td {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.input-group-addon {
+    min-width:100px;
+    text-align:left;
+}
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
